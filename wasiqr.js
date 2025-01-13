@@ -8,7 +8,7 @@ const fs = require('fs');
 let router = express.Router()
 const pino = require("pino");
 const {
-	default: Acd_Md,
+	default: riona_md,
 	useMultiFileAuthState,
 	jidNormalizedUser,
 	Browsers,
@@ -60,28 +60,28 @@ router.get('/', async (req, res) => {
 	
 				   let WASI_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃ACD_MD_V2 SESSION IS 
+┃RIONA-MD SESSION IS 
 ┃SUCCESSFULLY
-┃CONNECTED ✅🔥
+┃CONNECTED.. ✅
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DARK TECH ZONE 𖥘
+❶ || Creator =  ᴄʜ4ᴍɪ × ᴍᴅ..⚜️
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vazgd9F6WaKffmdKQH2A
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/dtzofc👈
+Wanna talk to me?👉 94703973470👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 Dark Tech Zone*
+©*2025-2099 Dark Lion Team*
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
-	 await Qr_Code_By_Acd_Md.sendMessage(Qr_Code_By_Acd_Md.user.id,{text:WASI_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_RIONA-MD_.sendMessage(Qr_Code_By_RIONA-MD_.user.id,{text:RIONA-MD_MD_TEXT},{quoted:session})
 
 
 
 					await delay(100);
-					await Qr_Code_By_Acd_Md.ws.close();
+					await Qr_Code_By_RIONA-MD_.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
