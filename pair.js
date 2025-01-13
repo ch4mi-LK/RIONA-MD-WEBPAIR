@@ -58,22 +58,22 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃ACD_MD_V2 SESSION IS 
+┃RIONA-MD SESSION IS 
 ┃SUCCESSFULLY
-┃CONNECTED ✅🔥
+┃CONNECTED.. ✅
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 DARK TECH ZONE 𖥘
+❶ || Creator =  ᴄʜ4ᴍɪ × ʙᴏʏ..⚜️ 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vazgd9F6WaKffmdKQH2A
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/dtzofc 👈
+Wanna talk to me?👉 94703973470 👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 Dark Tech Zone*
+©*2025-2099 Dark Lion Team*
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:ACD_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:RIONA-MD_TEXT},{quoted:session})
  
 
         await delay(100);
